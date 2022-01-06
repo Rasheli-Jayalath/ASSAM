@@ -1,5 +1,5 @@
 <?php
-$db = @mysql_connect("localhost:3307", "indacenadmin", "SJ_Smec@egc_2012") or die("Could not connect.");
+$db = @mysql_connect("localhost", "root", "") or die("Could not connect.");
 	 /* }
 	 else
 	{

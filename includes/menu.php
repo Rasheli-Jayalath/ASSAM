@@ -23,7 +23,35 @@ $strusername 	= $_SESSION['ne_username'];
 		}
 		?>
 		
+		</li>		
 		</li>
+				<li> <?php if ($news_flag == 1) { ?> 
+		<a href="./?p=dailyreports_mgmt" <? if($sCurPage=='./?p=dailyreports_mgmt') echo 'class="sel"' ; ?> class="current" target="_blank">Daily Reports</a>
+		<?php
+		}
+		else
+		{
+		?>
+		<a href="javascript:void(0);" style="opacity: 0.5;" >Daily Project Reports</a>
+		<?php
+		}
+		?>
+		
+		</li>
+        <li> <?php if ($news_flag == 1) { ?> 
+		<a href="./?p=pmcdailyreports_mgmt" <? if($sCurPage=='./?p=pmcdailyreports_mgmt') echo 'class="sel"' ; ?> class="current" target="_blank">Daily PMC Reports</a>
+		<?php
+		}
+		else
+		{
+		?>
+		<a href="javascript:void(0);" style="opacity: 0.5;" >Daily PMC Reports</a>
+		<?php
+		}
+		?>
+		
+		</li>
+           
 	 	<li><a href="PMIS/home.php" <? if($sCurPage=='PMIS/home.php') echo 'class="sel"' ; ?> class="current" target="_blank"><?php echo PMIS;?></a></li>
 		
 		

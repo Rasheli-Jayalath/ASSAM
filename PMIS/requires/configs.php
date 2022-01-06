@@ -3,10 +3,10 @@
 	/*define('SITE_URL',   'http://localhost:8070/PMIS/');
 	define('HTTPS_URL',  'http://localhost:8070/PMISN/');
 	define('SITE_TITLE',   'Payroll');*/
-	define('DB_SERVER',   'localhost:3307');
+	define('DB_SERVER',   'localhost');
 	define('DB_NAME',     'assam_pmis');
-	define('DB_USER',     'indacenadmin');
-	define('DB_PASSWORD', 'SJ_Smec@egc_2012');
+	define('DB_USER',     'root');
+	define('DB_PASSWORD', '');
 	define('PROJECT',     		'ASSAM');
 	define('RESOURCE',     		'Resources');
 	define('MAINDATA',     		'Main Data');

@@ -1,6 +1,6 @@
 <?php
 	ob_start();
-	define(PNAME,"ASSAM");
+    define('PNAME',"ASSAM");
 	session_name(PNAME);
 	@session_start( );
 	//session_cache_expire(30);
@@ -12,9 +12,9 @@
 	// database configuration
 if($_SERVER['HTTP_HOST'] == "localhost" || $_SERVER['HTTP_HOST'] == "14.141.114.205" || $_SERVER['HTTP_HOST'] == "10.100.65.117" || $_SERVER['HTTP_HOST'] == "india-sdms.smecnet.com")
 	{
-		$dbCfg['host']			= "localhost:3307";
-		$dbCfg['db_user']		= "indacenadmin";
-		$dbCfg['db_passwd']		= "SJ_Smec@egc_2012";
+		$dbCfg['host']			= "localhost";
+		$dbCfg['db_user']		= "root";
+		$dbCfg['db_passwd']		= "";
 		$dbCfg['db_name']		= "assam";
 	}
 	
